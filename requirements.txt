@@ -1,0 +1,8 @@
+# ---- Web Server ----
+fastapi==0.111.0       # El framework de la API
+uvicorn[standard]==0.29.0  # El servidor que ejecuta FastAPI
+
+# ---- Data Access (HDFS) ----
+pandas==2.2.2          # Para manejar los datos (to_dict)
+pyarrow==16.1.0        # Para leer archivos Parquet (el "contrato")
+fsspec[hdfs]==2024.6.0 # El "puente" que permite a pyarrow hablar con HDFS

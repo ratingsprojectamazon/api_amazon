@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv
+pip-log.txt
+pip-delete-this-directory.txt
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+
+# Data files
+*.csv
+*.parquet
+*.json
+data/
+output/
+
+# Logs
+logs/
+*.log
+
+# Spark
+derby.log
+metastore_db/
+spark-warehouse/
+
+# Ignorar datos locales
+local_data/
+pipeline_amazon_etl/data/
+*.parquet
+*.jsonl
+*.tar.gz
+
+# Ignorar entornos virtuales y caché
+venv/
+api_amazon_riesgo/venv/
+__pycache__/
+.pytest_cache/
+.env
